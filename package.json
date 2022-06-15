@@ -1,0 +1,19 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an awesome development environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mintchocoicecream/Gulp.git"
+  },
+  "author": "Hyunjeong Seo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mintchocoicecream/Gulp/issues"
+  },
+  "homepage": "https://github.com/mintchocoicecream/Gulp#readme"
+}
