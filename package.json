@@ -1,10 +1,13 @@
 {
   "name": "gulp",
   "version": "1.0.0",
+  "type": "module",
   "description": "Learn Gulp by building an awesome development environment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/mintchocoicecream/Gulp/issues"
   },
-  "homepage": "https://github.com/mintchocoicecream/Gulp#readme"
+  "homepage": "https://github.com/mintchocoicecream/Gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/register": "^7.17.7"
+  }
 }
