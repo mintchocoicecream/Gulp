@@ -20,9 +20,13 @@
   },
   "homepage": "https://github.com/mintchocoicecream/Gulp#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
-    "@babel/register": "^7.17.7"
+    "@babel/register": "^7.17.7",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "del": "^6.1.1",
+    "gulp-pug": "^5.0.0"
   }
 }
