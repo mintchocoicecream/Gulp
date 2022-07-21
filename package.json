@@ -29,6 +29,8 @@
   "dependencies": {
     "del": "^6.1.1",
     "gulp-image": "^6.3.1",
-    "gulp-pug": "^5.0.0"
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.53.0"
   }
 }
