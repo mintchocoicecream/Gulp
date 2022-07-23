@@ -9,6 +9,9 @@
     "dev": "gulp dev",
     "build": "gulp build"
   },
+  "browserslist": [
+    "last 2 versions"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mintchocoicecream/Gulp.git"
@@ -28,6 +31,8 @@
   },
   "dependencies": {
     "del": "^6.1.1",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-csso": "^4.0.1",
     "gulp-image": "^6.3.1",
     "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.1.0",
